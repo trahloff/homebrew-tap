@@ -1,6 +1,6 @@
 cask "dictait-mac" do
   version "1.0.0"
-  sha256 "38c8dd488e9141c6e7786f5afe157c132ca8f45c9901698c2d701aba0db8f8c7"
+  sha256 "93b2e66c98cf56305426f30623cd0b5479dfa189cbab02ffc5e83693002dbafb"
 
   url "https://github.com/trahloff/dictait/releases/download/mac-v#{version}/dictait-mac-#{version}.dmg"
   name "dictait"
