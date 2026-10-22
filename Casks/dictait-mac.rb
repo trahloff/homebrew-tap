@@ -1,17 +1,13 @@
 cask "dictait-mac" do
-  version "1.0.0"
-  sha256 "93b2e66c98cf56305426f30623cd0b5479dfa189cbab02ffc5e83693002dbafb"
+  version "1.1.0"
+  sha256 "d49c38e71736800fc6263d9df8f45be572813ae0f458134d5d9a4f819d0841a8"
 
   url "https://github.com/trahloff/dictait/releases/download/mac-v#{version}/dictait-mac-#{version}.dmg"
   name "dictait"
   desc "Global dictation for macOS with AI-powered transcription"
   homepage "https://github.com/trahloff/dictait"
 
-  depends_on macos: ">= :sonoma"
-
   app "dictaitMac.app"
-
-  uninstall quit: "com.dictait.mac"
 
   zap trash: [
     "~/Library/Application Support/dictaitMac",
