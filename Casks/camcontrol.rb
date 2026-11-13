@@ -1,6 +1,6 @@
 cask "camcontrol" do
-  version "0.2.7"
-  sha256 "1b8710b7e86dfd3a7e5ad2a95e26861423fe4261e7654594bca896026cc05b8d"
+  version "0.2.8"
+  sha256 "aebe1c857084e7f1453d67e1f23e1667e88091b1653f2db177d795a062729ed6"
 
   # The source repo is private; the notarized DMGs are released here.
   url "https://github.com/trahloff/homebrew-tap/releases/download/camcontrol-v#{version}/CamControl-#{version}.dmg"
